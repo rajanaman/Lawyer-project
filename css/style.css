@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+   
+/* font-family: 'Open Sans', sans-serif; */
+
+
+
+.nav-link{
+    color: #33417c;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.nav-link:hover{
+    color: #0d1f66;
+    
+}
+
+.banner{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 91vh;
+    position: relative;
+}
+
+.banner h1{
+text-align: center;
+font-size: 82px;
+color: #ffffff;
+text-transform: uppercase;
+font-weight: 600;
+font-family: 'Open Sans', sans-serif; 
+}
+
+.icon{
+
+position: absolute;
+
+left: 50%;
+
+transform: translate(-50%);
+
+color: #fff;
+
+top: 75%;
+
+font-size: 20px;
+}
+
+.hg{
+    min-height: 91vh;
+    text-align: center;
+}
+
+.who_we_are{
+
+padding: 70px 70px;
+}
+
+.who_we_are span{
+
+display: block;
+
+width: 50px;
+
+height: 3px;
+
+background: #e44f24;
+
+}
+
+.who_we_are h1{
+
+color: #33417c;
+
+text-transform: uppercase;
+
+font-size: 35px;
+
+margin-top: 10px;
+
+font-weight: 700;
+font-family: 'Open Sans', sans-serif; 
+}
+
+.who_we_are p{
+
+color: #bab5b2;
+
+font-size: 16px;
+
+margin-top: 15px;
+font-family: 'Open Sans', sans-serif; 
+}
+
+.what_we_do{
+
+background: #f7f8f8;
+
+padding: 70px;
+
+background-image: url(../images/what-we-do-4.png);
+
+background-repeat: no-repeat;
+
+background-position: bottom right;
+
+background-size: 72%;
+}
+
+.what_we_do span{
+
+display: block;
+
+height: 3px;
+
+width: 50px;
+
+background: #e44e21;
+
+margin: auto;
+}
+
+.what_we_do h1{
+
+color: #33417c;
+
+text-align: center;
+
+font-size: 35px;
+
+text-transform: uppercase;
+
+margin-top: 10px;
+
+font-weight: 700;
+font-family: 'Open Sans', sans-serif; 
+}
+
+.item{
+    position: relative;
+}
+
+.item img{
+    width: 100%;
+    
+}
+
+.item h1{
+    
+position: absolute;
+left: 50%;
+top: 53%;
+transform: translate(-50%, -50%);
+color: #fff;
+font-size: 21px;
+opacity: 0;
+transition: .5s all ease-in-out;
+font-family: 'Open Sans', sans-serif; 
+}
+.item:hover h1{
+    opacity: 1;
+    top: 50%;
+
+}
+
+.item i{
+    
+position: absolute;
+    
+left: 48%;
+    
+transform: translate(-50%);
+    
+color: #fff;
+    
+top: 80%;
+font-size: 25px;
+opacity: 0;
+transition: .5s all ease-in-out;
+}
+
+.item:hover i{
+opacity: 1;
+left: 50%;
+}
+
+.item:hover::before{
+    height: 100%;
+}
+
+.item::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,36226f+100&0+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(30,87,153,0) 0%, rgba(54,34,111,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 0%,rgba(54,34,111,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(30,87,153,0) 0%,rgba(54,34,111,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#36226f',GradientType=0 ); /* IE6-9 */
+transition: .5s all ease-in-out;
+}
+
+.attorney-section{
+    background-image: url(../images/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 80px;
+ 
+}
+
+.attorney-section span{
+    
+display: block;
+    
+height: 3px;
+    
+width: 50px;
+    
+background: #e76629;
+}
+
+.attorney-section h1{
+color: #fff;
+font-weight: 700;
+font-size: 55px;
+font-family: 'Open Sans', sans-serif; 
+}
+
+.attorney-section p{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.attorney-section a{
+    font-size: 19px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #e76128;
+    text-transform: uppercase;}
+
+    .attorney{
+        position: relative;
+    }
+    
+    .attorney img{
+        width: 100%;
+        
+    }
+    
+    .attorney h1{
+        
+    position: absolute;
+    left: 36%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 21px;
+    opacity: 0;
+    transition: .5s all ease-in-out;
+    font-family: 'Open Sans', sans-serif; 
+    }
+    .attorney:hover h1{
+        opacity: 1;
+        top: 65%;
+    
+    }
+    
+    .attorney:hover::before{
+        height: 100%;
+    }
+    
+    .attorney::before{
+        content:'';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 0%;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,36226f+100&0+0,1+100 */
+    background: -moz-linear-gradient(top,  rgba(30,87,153,0) 0%, rgba(54,34,111,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 0%,rgba(54,34,111,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(30,87,153,0) 0%,rgba(54,34,111,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#36226f',GradientType=0 ); /* IE6-9 */
+    transition: .5s all ease-in-out;
+    }
+
+
+
+    .language span{
+
+        display: block;
+        
+        height: 3px;
+        
+        width: 50px;
+        
+        background: #e44e21;
+        
+        margin: auto;
+        }
+        
+    .language h1{
+        
+        color: #33417c;
+        
+        text-align: center;
+        
+        font-size: 35px;
+        
+        text-transform: uppercase;
+        
+        margin-top: 10px;
+        
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif; 
+        }
+
+.language h2{
+
+color:#36226f;
+
+text-transform: uppercase;
+
+font-size: 30px;
+
+font-weight: 600;
+font-family: 'Open Sans', sans-serif; 
+
+}
+
+.language p{
+
+font-size: 14px;
+font-family: 'Open Sans', sans-serif; 
+
+}
+
+.seemore{
+    color:#e44f24;
+
+text-decoration: none;
+
+text-transform: uppercase;
+
+font-weight: 600;
+
+}
+
+.contact{
+    background-image: url(../images/conact-bg.png);
+    background-image: url(../images/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px;
+    margin: auto;
+}
+
+.contact span{
+display: block;
+height: 3px;
+width: 50px;
+background: #e76629;
+margin: auto;
+}
+
+.contact h1{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif; 
+
+
+}
+
+
+footer{
+    background: #16102b;
+    padding: 30px 30px;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.footer_heading h5{
+    color: #6c64a0;
+}
